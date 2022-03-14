@@ -1,4 +1,4 @@
-![for sale context image from lending tree: https://www.lendingtree.com/home/mortgage/how-to-buy-a-house-when-your-current-home-hasnt-sold/](for-sale-header.jpg)
+![for sale context image from lending tree: https://www.lendingtree.com/home/mortgage/how-to-buy-a-house-when-your-current-home-hasnt-sold/](./images/for-sale-header.jpg)
 
 Housing Price Prediction Project
 
@@ -10,7 +10,7 @@ I began with a baseline that predicts only the mean house price from the trainin
 
 The most important feature to my preferred model, the Ridge regression model, was the Overall Quality of the home, according to permutation importance:
 
-![feature importance from eli5 output for the ridge regression model](feature-importance-ridge.png)
+![feature importance from eli5 output for the ridge regression model](./images/feature-importance-ridge.png)
 
 In the future I would like to first use more of the categorical features, and perhaps encode some of the discrete features I used in my final model. I would also like to then only use the most important features, perhaps by regularizing using both LASSO and Ridge through an ElasticNet model. I could alos onlyuse the top 5-10 features based on Permutation Importance.
 
